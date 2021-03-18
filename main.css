@@ -11,5 +11,5 @@ main {
     width: 800px; 
     margin-left: calc((100% - 800px) / 2);
     margin-right: calc((100% - 800px) / 2); 
-    background-color: rgb(103, 231, 120);
+    background-color: rgb(84, 238, 105);
 }
