@@ -1,15 +1,93 @@
-header {
-    display: inline-block; 
-    width: 800px; 
-    margin-left: calc((100% - 800px) / 2);
-    margin-right: calc((100% - 800px) / 2); 
-    background-color: aqua;
+body { 
+    background-color: #F8F8F8;
 }
+
+header {
+    margin-top: 180px;
+    display: inline-block; 
+    width: 900px; 
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2); 
+    background-color: #F8F8F8;
+
+}
+
+header > img {height: 50px;
+              margin: 0;
+              margin-top: 5px;
+              float: left;
+
+}   
+
+nav {
+    float: right;
+    padding: 8px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+a { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 20px;
+    color: #9E9E9E;
+    font-weight: bold;
+    ;
+}
+
 
 main {
     display: inline-block; 
-    width: 800px; 
-    margin-left: calc((100% - 800px) / 2);
-    margin-right: calc((100% - 800px) / 2); 
-    background-color: rgb(84, 238, 105);
+    width: 900px; 
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2); 
+    background-color: #F8F8F8;
+    color: #9E9E9E;
+    
+}
+
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 12%;
+    width: 50%;
+
+}
+
+h1{
+    font-size: 95px;
+    margin: 0;
+    line-height: 40%;
+
+}
+
+
+p{ 
+  font-size: 38px;
+  margin-right: 25%;
+  float: left ;
+  line-height: 120%;
+  text-align: left;
+}
+
+.signIn{
+    border: 3px solid #9E9E9E;
+    border-radius: 25%;
+    padding: 4px 12px;
+}
+
+.signIn:hover{
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+main > img {
+    height: 250px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 70px;
+
 }
